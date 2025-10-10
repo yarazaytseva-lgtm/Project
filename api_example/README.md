@@ -20,4 +20,12 @@ https://api.gbif.org/v1/species/search
 
 Сохраняет всю полученную таблицу в файл bird_species.csv для дальнейшей работы/анализа.
 
+## Как запустить
+1. Убедитесь, что у вас установлен Python 3 и необходимые библиотеки:
+   pip install requests pandas
+2. Запустите файл:
+   python api_reader.py
+
+## Пример вывода
+<img width="1489" height="372" alt="2025-10-10_21-18-47" src="https://github.com/user-attachments/assets/ab60bec3-a934-476c-8801-71acc295a682" />
 
