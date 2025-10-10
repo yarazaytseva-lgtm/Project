@@ -24,4 +24,4 @@ pip install -r requirements.txt
 
 ## Пример вывода скрипта
 
-**Домашнее задание №2**:<img width="1113" height="511" alt="image" src="https://github.com/user-attachments/assets/54853796-a311-4344-a7dc-8fe9b9458fee" />
+**Вывод**:<img width="1113" height="511" alt="image" src="https://github.com/user-attachments/assets/54853796-a311-4344-a7dc-8fe9b9458fee" />
