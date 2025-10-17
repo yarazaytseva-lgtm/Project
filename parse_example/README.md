@@ -44,3 +44,6 @@ python data_parser.py
 - **Товаров с названием:** 30
 - **Товаров с ценой:** 30
 - **Товаров с картинкой:** 30
+
+## Пример вывода
+<img width="1404" height="751" alt="image" src="https://github.com/user-attachments/assets/daa5a903-7de2-44ed-832d-5bf3ffdd1cd6" />
