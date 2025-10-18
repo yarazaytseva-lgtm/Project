@@ -17,7 +17,7 @@ else:
 
 soup = BeautifulSoup(html, 'html.parser')
 
-# Ищем все цитаты - они находятся в элементах с классом 'quote'
+# Ищем все цитаты - элементы с классом 'quote'
 quotes = soup.find_all('div', class_='quote')
 print(f"Найдено цитат: {len(quotes)}\n")
 
@@ -56,7 +56,6 @@ print(f"Собрано цитат: {len(df)}\n")
 
 print("Первые 5 цитат:\n")
 print(df.head())
-
 
 output_file = 'quotes.csv'
 
