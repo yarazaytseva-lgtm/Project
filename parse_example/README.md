@@ -22,3 +22,6 @@ Cобирает цитаты известных людей с сайта [Quotes
 Для запуска проекта необходим Python 3.7 или выше и следующие библиотеки:
 
 pip install requests beautifulsoup4 pandas
+
+## Пример вывода
+<img width="1136" height="213" alt="image" src="https://github.com/user-attachments/assets/3bdc41e6-0efd-494d-a18e-37920e78f1ea" />
