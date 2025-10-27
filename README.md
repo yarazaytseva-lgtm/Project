@@ -8,6 +8,13 @@
 
 Исходный источник датасета: [CalCOFI на Kaggle](https://www.kaggle.com/datasets/sohier/calcofi?utm_source=chatgpt.com&select=cast.csv)
 
+## Ссылка на EDA ноутбук
+
+🔗 [Открыть EDA.ipynb в nbviewer](https://nbviewer.org/github/yarazaytseva-lgtm/Project/blob/main/notebooks/EDA.ipynb)
+
+> Рекомендуется просматривать через nbviewer для корректного отображения всех визуализаций.
+
+
 ## Инструкция по запуску
 
 ## Создать виртуальное окружение:
