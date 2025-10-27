@@ -10,7 +10,7 @@
 
 ## Ссылка на EDA ноутбук
 
-🔗 [Открыть EDA.ipynb в nbviewer](https://nbviewer.org/github/yarazaytseva-lgtm/Project/blob/main/notebooks/EDA.ipynb)
+🔗 [Открыть EDA.ipynb в nbviewer](https://nbviewer.org/github.com/yarazaytseva-lgtm/Project/blob/main/notebooks/EDA.ipynb)
 
 
 
