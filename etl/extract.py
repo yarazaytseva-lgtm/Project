@@ -8,7 +8,7 @@ from . import RAW_DIR
 
 NA_VALUES = ["", "NA", "NaN", "null"]
 CSV_ENCODING = "utf-8"
-CSV_SEPARATOR = ";"
+CSV_SEPARATOR = ","
 DEFAULT_RAW_NAME = "raw.csv"
 
 
@@ -38,3 +38,4 @@ def load_raw_dataframe(source: Path) -> pd.DataFrame:
 def extract(file_id: str) -> pd.DataFrame:
     raw_path = download_raw_csv(file_id)
     return load_raw_dataframe(raw_path)
+
