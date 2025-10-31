@@ -66,7 +66,7 @@ python -m etl.main <GOOGLE_DRIVE_FILE_ID> [--table-name my_table] [--limit 100] 
 
 Самый простой пример запуска без загрузки в БД:
 ```
-python -m etl.main 1Svje8GeeWe-hp_F-FNtnYZEGHWo1Lp-Y --skip-db
+python -m etl.main 10eufblSIFd0USk8-6YX2O5NyMI1RlaP- --skip-db
 ```
 
 ## Пример вывода скрипта
