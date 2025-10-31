@@ -3,10 +3,12 @@ from collections.abc import Iterable
 import pandas as pd
 
 _REQUIRED_COLUMNS = {
-    "Patient name",
-    "Company Name",
-    "Drug Name",
-    "Receipt Date",
+    "Cruise_ID",
+    "Cast_ID",
+    "Date",
+    "Time",
+    "Lat_Dec",
+    "Lon_Dec",
 }
 
 
@@ -28,3 +30,4 @@ def validate_output(df: pd.DataFrame) -> None:
     missing = _missing_columns(df, _REQUIRED_COLUMNS)
     if missing:
         raise ValueError(f"Transformed dataset lost required columns: {sorted(missing)}")
+
