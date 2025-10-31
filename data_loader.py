@@ -5,9 +5,11 @@ from data_convert import enforce_schema
 DATA_DIR = pathlib.Path("data")
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
+FILE_ID = "10eufblSIFd0USk8-6YX2O5NyMI1RlaP-"
+FILE_URL = f"https://drive.google.com/uc?export=download&id={FILE_ID}"
+
 def load_raw() -> pd.DataFrame:
-    src = r"C:\Users\Mr.Chip\Desktop\DE sea\data\raw.csv"
-    df = pd.read_csv(src, encoding="utf-8", sep=",", na_values=["", "NA", "NaN", "null"], low_memory=False)
+    df = pd.read_csv(FILE_URL, encoding="utf-8", sep=",", na_values=["", "NA", "NaN", "null"], low_memory=False)
     return df
 
 
@@ -30,6 +32,7 @@ def main():
         save(df)
 
 
-if __name__ == "__main__":
+if name == "main":
     main()
+
 
