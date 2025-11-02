@@ -9,16 +9,13 @@ from . import PROCESSED_DIR
 
 DEFAULT_TABLE_NAME = "zaytseva"
 DEFAULT_PARQUET_NAME = "clean.parquet"
-DEFAULT_CSV_NAME = "clean.csv"
 
 
 def save_processed(df: pd.DataFrame) -> None:
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     parquet_path = PROCESSED_DIR / DEFAULT_PARQUET_NAME
-    csv_path = PROCESSED_DIR / DEFAULT_CSV_NAME
     df.to_parquet(parquet_path, index=False)
-    df.to_csv(csv_path, index=False, encoding="utf-8")
-
+   
 
 def _build_connection_string() -> str:
     load_dotenv()
@@ -65,3 +62,4 @@ def load(df: pd.DataFrame, table_name: str = DEFAULT_TABLE_NAME, limit: int = 10
     # keep orchestration clear for main pipeline
     save_processed(df)
     load_to_database(df, table_name=table_name, limit=limit)
+
